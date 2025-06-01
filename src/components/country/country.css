@@ -1,16 +1,42 @@
 .country{
-  
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
     padding: 8px;
     border-radius: 6px;
-    border: 1px solid rgb(246, 191, 27);
+    border: 1px solid rgb(255, 255, 255);
     margin: 5px;
     text-align: center;
     color: rgb(246, 191, 27);
 
 }
-h4{
+.country h4{
     padding: 0;
     margin: 0;
     font-size: 20px;
- ;
+}
+.country img{
+    height:150px;
+    width:250px;
+}
+.country a{
+    border:1px solid white;
+    padding:7px 20px;
+    border-radius: 5px;
+}
+.country p{
+    margin: 0;
+}
+.country .logo{
+position: absolute;
+right: 0px;
+top: 0px;
+width: 50px;
+height: 50px;
+background-color: rgb(255, 255, 255);
+padding: 3px;
+border-radius: 0 5px 0px 6px;
 }
