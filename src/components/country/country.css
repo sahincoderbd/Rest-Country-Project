@@ -41,3 +41,6 @@ background-color: rgb(255, 255, 255);
 padding: 3px;
 border-radius: 0 5px 0px 6px;
 }
+.visited{
+    background-color: darkslategray;
+}
