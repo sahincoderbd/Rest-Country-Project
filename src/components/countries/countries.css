@@ -7,3 +7,12 @@
   li{
     list-style-type: none;
   }
+  .visited-flags{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .visited-flags img{
+    width: 50px;
+  }
