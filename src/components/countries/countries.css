@@ -15,4 +15,21 @@
   }
   .visited-flags img{
     width: 50px;
+    height: 30px;
+    object-fit: fill;
+
+  }
+  .visited-country-list{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .visited-country-list li{
+    padding-right: 20px;
+   
+    border-right: 1px solid gray;
+  }
+  .visited-country-list li:last-child{
+    border: none;
   }
