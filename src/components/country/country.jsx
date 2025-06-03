@@ -24,7 +24,7 @@ const {name,flags,maps,capital,coatOfArms,flag,population}=country;
             <p><strong>Capital: </strong>{capital} </p>
             <p><strong>Population: </strong>{population} </p>
             <a href={maps.googleMaps} target='blank' >View in Map</a>
-            <button onClick={visitedHandler} >{visited? 'Visited':'Mark as visited'}</button>
+            <button onClick={visitedHandler} >{visited? 'Remove from visited':'Mark as visited'}</button>
 
         </div>
     );
