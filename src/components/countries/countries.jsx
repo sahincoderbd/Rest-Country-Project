@@ -59,7 +59,7 @@ export default function Countries(){
         <ul>
            
           {
-            visitedCountry.map(country=><li key={country.ccn3}> {country.name.common}</li>)
+            visitedCountry.map(country=><li key={country.ccn3}> ✅ {country.name.common}</li>)
           }
         </ul>
           <div className="countries">
